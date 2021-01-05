@@ -1,0 +1,80 @@
+nav.top {
+    background-color: black;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    position: relative;
+    font-size: larger;
+    width: 98vw;
+    height: 30px;
+  }
+
+  nav.top li {
+    display: inline;
+    position: relative;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+  }
+  nav.top li:hover {
+    background: yellowgreen;
+  }
+
+  header {
+      background-color: white;
+  }
+main {
+    margin-top: 50px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+main div img{
+    margin-top: 50px;
+    display: block;
+  margin-left: 0%;
+  margin-right: 4%;
+  width: 20%;
+  display: inline;
+
+}
+footer img {
+    margin-left: 15%;
+    margin-top: 3%;
+    width: 25%;
+    float: left;
+
+}
+  footer div p {
+     position: relative: bottom 20px;;
+    position: absolute: top: 20px
+    height: 80px;
+    overflow: scroll;
+    display: block;
+    position: absolute: top: -20px
+    ;
+            
+      
+ }
+
+ .button {
+    padding: initial;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border : 2px solid red;
+    border-radius:50px 20px ; 
+     box-shadow: 0 1px #999; 
+    
+  }
+.button:hover{ background-color: lightcoral;}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
