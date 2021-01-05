@@ -48,12 +48,13 @@ footer img {
 
 }
   footer div p {
-     position: relative: bottom 20px;;
-    position: absolute: top: 20px
-    height: 80px;
+     position: relative;
+     left: 20px;
+     top: 60px;
+     height: 80px;
     overflow: scroll;
     display: block;
-    position: absolute: top: -20px
+    
     ;
             
       
@@ -77,4 +78,8 @@ footer img {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+
+  footer div section p {
+    background-color: black;
   }
